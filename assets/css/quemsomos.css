@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    background-color: #05192A;
+}
+
+/* Cabeçalho */
+
+.cabeçalho {
+    padding: 20px;
+    background-color: #04233F;
+}
+
+.titulo {
+    color: #1190FF;
+    font-size: 2em;
+    font-weight: 600;
+}
+
+/* Navegador */
+
+.navegador {
+    background-color: #06345D;
+    padding: 20px;
+}
+
+.navegador a {
+    font-size: 1.5em;
+    margin: 0px 50px;
+    text-decoration: none;
+    color: #2a7dc5;
+}
+
+.navegador a:hover {
+    color: #ffffff;
+}
+
+/* Quem somos */
+
+.quem-somos {
+    overflow: auto;
+}
+
+.quem-somos .servico {
+    float: center;
+    margin: 60px auto;
+    padding: 50px;
+    background-color: #061F35;
+    border-radius: 10px;
+    width: 50%;
+}
+
+.servico img {
+    margin-bottom: 10px;
+}
+
+.servico p {
+    color: #61C4F2;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.2em ;
+}
+
+#inteligencia-artificial {
+    color: white;
+    font-weight: 1000;
+}
+
+/* Nossos contatos */
+
+.contatos {
+    background-color: #082946;
+    padding: 80px;
+    color: white;
+}
+
+.contatos h3 {
+    font-size: 1.5em;
+}
+
+.botoes {
+    padding: 60px;
+    text-align: center;
+}
+
+.botoes a {
+    display: flexk;
+    max-width: 200px;
+    text-decoration: none;
+    font-size: 1.3em;
+    background-color: #2a7dc5;
+    color: white;
+    padding: 20px 60px;
+    margin: 10px 30px;
+    border-radius: 10px;
+}
+
+.botoes a:hover {
+    background-color: white;
+    color: #061F35;
+}
+
+/* Nossos contatos */
+
+.rodape {
+    padding: 40px;
+    color: antiquewhite;
+}
