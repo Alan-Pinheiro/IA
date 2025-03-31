@@ -41,37 +41,49 @@ body {
     color: #ffffff;
 }
 
-/* Quem somos */
+/* Serviços */
 
-.quem-somos {
-    overflow: auto;
+.servicos {
+    padding: 80px;
 }
 
-.quem-somos .servico {
-    float: center;
-    margin: 60px auto;
-    padding: 50px;
-    background-color: #061F35;
-    border-radius: 10px;
-    width: 50%;
+.servicos h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
 }
 
-.servico img {
-    margin-bottom: 10px;
+.servicos h3 {
+    padding: 20px 0px 20px 0px;
+    color: #2097FF;
+    font-size: 1.4em;
 }
 
-.servico p {
-    color: #61C4F2;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 1.2em ;
+.servicos li {
+    margin: 0px 0px 20px 50px;
 }
 
-#inteligencia-artificial {
-    color: white;
-    font-weight: 1000;
+ul {
+    padding-left: 0;
+    margin-left: 0;
 }
 
-/* Nossos contatos */
+ul li {
+    list-style-position: inside;
+    font-size: 1.1em;
+}
+
+ol {
+    padding-left: 0;
+    margin-left: 0;
+}
+
+ol li {
+    list-style-position: inside;
+    font-size: 1.1em;
+}
+
+
+/* Contatos */
 
 .contatos {
     background-color: #082946;
@@ -105,9 +117,9 @@ body {
     color: #061F35;
 }
 
-/* Nossos contatos */
+/* Rodape */
 
 .rodape {
-    padding: 40px;
+    padding: 40px;;
     color: antiquewhite;
 }
